@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PassStore</string>
+    <string name="action_password_register">Register</string>
+    <string name="action_password_reset">Reset password</string>
+    <string name="action_settings">Settings</string>
+    <string name="passwords_matched">Confirm password matches</string>
+    <string name="passwords_not_matched">Confirm password not match</string>
+    <string name="registered">Registered the master pw</string>
+</resources><!-- Copyright (c) 2017 YA<ya.androidapp@gmail.com> All rights reserved. -->
