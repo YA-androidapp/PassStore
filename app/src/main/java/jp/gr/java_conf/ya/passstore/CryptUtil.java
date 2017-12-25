@@ -113,10 +113,10 @@ public class CryptUtil {
         }
     }
 
-    public static boolean resetPw(){
+    public static boolean resetKeyStore(){
         try {
             mKeyStore.deleteEntry(KEY_ALIAS);
-            mKeyStore.setCertificateEntry(KEY_ALIAS, null);
+            mKeyStore.store(null);
             return true;
         } catch (Exception e) {
             Log.e(TAG, e.toString());

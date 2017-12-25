@@ -3,9 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="jp.gr.java_conf.ya.passstore.MainActivity">
     <item
-        android:id="@+id/action_password_reset"
+        android:id="@+id/action_jpp_reset"
         android:orderInCategory="100"
-        android:title="@string/action_password_reset"
+        android:title="@string/action_jpp_reset"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mpw_reset"
+        android:orderInCategory="100"
+        android:title="@string/action_mpw_reset"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_keystore_reset"
+        android:orderInCategory="100"
+        android:title="@string/action_keystore_reset"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_settings"
